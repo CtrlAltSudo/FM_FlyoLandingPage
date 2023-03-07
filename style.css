@@ -1,6 +1,9 @@
 body {
     margin: 0;
 }
+* {
+    font-family: 'Roboto', sans-serif;
+}
 .navContainer, .logoContainer, .navLinkContainer, .topContainer, .secondContainer, .thirdContainer, .footerBlock {
     display: flex;
 }
@@ -41,6 +44,12 @@ body {
     text-align: center;
     color: white;
 }
+.link {
+    border-bottom: 1px solid green ;
+    background-color: none;
+    color: green;
+/* Line heigh does nothing... */
+}
 .topInput {
     width: 20rem;
     height: 2.6rem;
@@ -49,7 +58,9 @@ body {
 
 img {
     width: 500px;
-
+}
+.arrow {
+    width: 1.2rem;
 }
 .textContainer {
     margin-top: 5rem;
@@ -83,6 +94,14 @@ img {
 .footerBlock {
     gap: 0.8rem;
     flex-direction: column;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.topText, .secondText {
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 /* @media screen and (min-width: 1200px) {

@@ -12,8 +12,18 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <style>
       .attribution {
         font-size: 11px;
@@ -46,15 +56,21 @@
       <div class="textContainer">
         <h1>All your files in one secure location, accessible anywhere.</h1>
 
-        <p>
+        <p class="topText">
           Fylo stores your most important files in one secure location. Access
           them wherever you need, share and collaborate with friends, family,
           and co-workers.
         </p>
         <div class="topInputContainer">
-        <input class="topInput" type="email" id="email" name="email" placeholder="Enter your email...">
-<button class="topButton"> Get Started </button>
-</div>
+          <input
+            class="topInput"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email..."
+          />
+          <button class="topButton">Get Started</button>
+        </div>
       </div>
       <div class="imgContainer">
         <img src="/images/illustration-1.svg" alt="" />
@@ -64,14 +80,17 @@
       <div class="textContainer">
         <h1>Stay productive, wherever you are</h1>
 
-        <p>
+        <p class="secondText">
           Never let location be an issue when accessing your files. Fylo has you
-          covered for all of your file storage needs. Securely share files and
-          folders with friends, family and colleagues for live collaboration. No
-          email attachments required! See how Fylo works
+          covered for all of your file storage needs.
+        </p>
+        <p class="secondText">
+          Securely share files and folders with friends, family and colleagues
+          for live collaboration. No email attachments required!
         </p>
 
-        <button>Get Started</button>
+        <a class="link">See how Flyo works
+          <span><img class="arrow" src="/images/icon-arrow.svg" alt="" /></span></a>
       </div>
       <div class="imgContainer">
         <img src="/images/illustration-2.svg" alt="" />
@@ -79,31 +98,36 @@
     </section>
     <section class="thirdContainer">
       <div class="footerBlock">
-      <div class="footerItem">
-      <h3>Get early access today </h3>
+        <div class="footerItem">
+          <h3>Get early access today</h3>
+        </div>
+        <div class="footerItem">
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
+        </div>
       </div>
-      <div class="footerItem">
-        It only takes a
-  minute to sign up and our free starter tier is extremely generous. If you
-  have any questions, our support team would be happy to help you.
+      <div class="footerBlock">
+        <div class="footerItem">
+          <label for="email"></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email@email.com"
+          />
+        </div>
+        <div class="footerItem">
+          <a class="thirdContainerButton">Get Started For Free</a>
+        </div>
       </div>
-    </div>
-    <div class="footerBlock">
-      <div class="footerItem">
-        <label for="email"></label>
-    <input type="email" id="email" name="email" placeholder="email@email.com">
-      </div>
-      <div class="footerItem">
-        <button class="thirdContainerButton">Get Started For Free</button>
-      </div>
-    </div>
-<p></p>
+      <p></p>
     </section>
     Fylo has improved our team productivity by an order of magnitude. Since
     making the switch our team has become a well-oiled collaboration machine.
-    Kyle Burton Founder & CEO, Huddle  Get Started
-    For Free Phone: +1-543-123-4567 example@fylo.com About Us Jobs Press Blog
-    Contact Us Terms Privacy
+    Kyle Burton Founder & CEO, Huddle Get Started For Free Phone:
+    +1-543-123-4567 example@fylo.com About Us Jobs Press Blog Contact Us Terms
+    Privacy
     <footer>
       <p class="attribution">
         Challenge by
