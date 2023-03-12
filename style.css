@@ -12,17 +12,41 @@ body {
 .thirdContainer,
 .footerBlock,
 .testContainer,
-.testContainerSmall {
+.testContainerSmall, 
+.avatarContainer,
+.avatarText,
+.fourthContainer {
   display: flex;
 }
-.testContainer, .testContainerSmall {
+.testContainer, .avatarText {
     flex-direction: column;
+}
+.testContainerSmall {
+
+}
+.avatarContainer {
+    
+}
+.avatarText {
+
+}
+.hTestC {
+    font-size: 0.8rem;
+    margin: 0 0 0 1rem;
+    font-weight: 400;
+}
+.pTestC {
+    font-size: 0.6rem;
+    font-weight: 100;
+    margin: 0.2rem 0 0 1rem;
+
 }
 .quotes {
     width: fit-content;
 }
 .avatarTest {
-    width: 2rem;
+    height: 2rem;
+    width: auto;
     border-radius: 50%;
 }
 .navLinkContainer {
@@ -43,7 +67,8 @@ body {
 }
 .topContainer,
 .secondContainer,
-.thirdContainer {
+.thirdContainer,
+.fourthContainer {
   justify-content: center;
   gap: 5rem;
   padding: 5rem;
@@ -61,17 +86,19 @@ body {
   gap: 1rem;
 }
 .testContainer {
- box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
- width: 20rem;
- height: 10rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        width: 20rem;
+ height: 11rem;
  padding: 1.5rem;
  border-radius: 0.3em;
+ background-color: white;
+ margin-top: 3rem;
 }
 .testText {
     font-size: 0.9rem;
     line-height: 1.8;
 }
-.topButton {
+.topButton, .thirdContainerButton {
   width: 13rem;
   height: 3rem;
   background-color: #3460ef;
@@ -79,6 +106,14 @@ body {
   border-radius: 0.2em;
   text-align: center;
   color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.footerItem2 {
+    width: 30rem;
+}
+.fourthContainer {
+    background-color: #07053c;
+    justify-content: space-around;
+
 }
 .link {
   border-bottom: 1px solid green;
@@ -86,15 +121,24 @@ body {
   color: green;
   /* Line heigh does nothing... */
 }
-.topInput {
+.topInput, .bottomInput {
   width: 20rem;
   height: 2.6rem;
-  border: ;
+  
+}
+.bottomInput {
+    width: 25rem;
+    height: 2.6rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.contentImgs {
+.contentImgs, .footerBlock2 {
   width: 38rem;
   margin-top: -3rem;
+}
+.footerBlock2 {
+    text-align: right;
+    align-self: end;
 }
 .arrow {
   width: 1.2rem;
@@ -102,8 +146,7 @@ body {
 .textContainer {
 
 }
-.textContainer,
-.footerBlock {
+.textContainer, .footerBlock1 {
   text-align: left;
   max-width: 40rem;
 }
@@ -111,8 +154,14 @@ body {
 .thirdContainer {
   background-color: #585989;
   color: white;
-  justify-content: space-between;
 }
+.footerButtonContainer {
+    margin-top: 1rem;
+    width: 25.5rem;
+    text-align: right;
+}
+
+
 
 .thirdContainerButton {
   width: 13rem;
@@ -139,6 +188,9 @@ h1 {
 .secondText {
   font-size: 1.2rem;
   font-weight: 300;
+}
+.footerItems, a {
+    color: white;
 }
 
 /* @media screen and (min-width: 1200px) {

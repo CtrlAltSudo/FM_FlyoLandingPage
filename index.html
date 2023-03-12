@@ -12,18 +12,8 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
       .attribution {
         font-size: 11px;
@@ -89,8 +79,7 @@
           for live collaboration. No email attachments required!
         </p>
 
-        <a class="link">See how Flyo works
-          <span><img class="arrow" src="/images/icon-arrow.svg" alt="" /></span></a>
+        <a class="link">See how Flyo works<span><img class="arrow" src="/images/icon-arrow.svg" alt="" /></span></a>
           <div class="testContainer">
             <img src="/images/icon-quotes.svg" alt="" class="quotes">
             <p class="testText">
@@ -98,10 +87,12 @@
             making the switch our team has become a well-oiled collaboration machine.
           </p>
           <div class="testContainerSmall">
+            <div class="avatarContainer">
             <img src="/images/avatar-testimonial.jpg" alt="" class="avatarTest">
-           <div class="avatarContainer">
-            <h3>Kyle Burton</h3>
-            <p>Founder & CEO, Huddle </p>
+            <div class="avatarText">
+            <h3 class="hTestC">Kyle Burton</h3>
+            <p class="pTestC">Founder & CEO, Huddle </p>
+          </div>
           </div>
           </div>
           </div> 
@@ -111,7 +102,7 @@
       </div>
     </section>
     <section class="thirdContainer">
-      <div class="footerBlock">
+      <div class="footerBlock1">
         <div class="footerItem">
           <h3>Get early access today</h3>
         </div>
@@ -121,23 +112,44 @@
           be happy to help you.
         </div>
       </div>
-      <div class="footerBlock">
+      <div class="footerBlock2">
         <div class="footerItem">
           <label for="email"></label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="email@email.com"
-          />
+          <input class="bottomInput" type="email" id="email" name="email" placeholder="email@email.com"/>
+
+        <div class="footerButtonContainer">
+          <button class="thirdContainerButton">Get Started For Free</button>
         </div>
-        <div class="footerItem">
-          <a class="thirdContainerButton">Get Started For Free</a>
         </div>
       </div>
-      <p></p>
     </section>
-
+    <section class="fourthContainer">
+<div class="footerItems">
+<ul>
+  <li><img src="/images/icon-phone.svg" alt="">+1-543-123-4567 </li>
+  <li>example@fylo.com</li>
+</ul>
+</div>
+<div class="footerItems">
+  <ul>
+    <li><a href="http://" target="_blank" rel="noopener noreferrer">About Us</a></li>
+    <li><a href="http://" target="_blank" rel="noopener noreferrer">Jobs</a></li>
+    <li><a href="http://" target="_blank" rel="noopener noreferrer">Press</a></li>
+    <li><a href="http://" target="_blank" rel="noopener noreferrer">Blog</a></li>
+  </ul>
+</div>
+<div class="footerItems">
+    <ul>
+      <li><a href="http://" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+      <li><a href="http://" target="_blank" rel="noopener noreferrer">Terms</a></li>
+      <li><a href="http://" target="_blank" rel="noopener noreferrer">Privacy</a></li>
+    </ul>
+<div class="footerItems">
+  <img src="/images/icon-email.svg" alt="">
+  <img src="/images/icon-phone.svg" alt="">
+  <img src="/images/" alt="">
+</div>
+    </section>
     <footer>
       <p class="attribution">
         Challenge by
