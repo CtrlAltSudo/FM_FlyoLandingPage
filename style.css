@@ -4,6 +4,10 @@ body {
 * {
   font-family: "Roboto", sans-serif;
 }
+ul, a {
+    list-style-type: none;
+    text-decoration: none;
+}
 .navContainer,
 .logoContainer,
 .navLinkContainer,
@@ -49,10 +53,9 @@ body {
     width: auto;
     border-radius: 50%;
 }
-.navLinkContainer {
-  margin-top: 2em;
-  margin-left: auto;
-  margin-right: 3em;
+.navContainer {
+justify-content: space-between;
+padding: 0 5rem 0 5rem;
 }
 .nav1,
 .nav2,
@@ -68,14 +71,15 @@ body {
 .topContainer,
 .secondContainer,
 .thirdContainer,
-.fourthContainer {
-  justify-content: center;
-  gap: 5rem;
+.fourthContainer, 
+.navContainer {
+  justify-content: space-between;
+  max-width: 90rem;
+  margin: 0 auto;
   padding: 5rem;
 }
 .topContainer {
   margin-bottom: 5em;
-  margin-top: 3rem;
 }
 .secondContainer {
   background: url("images/bg-curve-desktop.svg") no-repeat center;
@@ -191,6 +195,12 @@ h1 {
 }
 .footerItems, a {
     color: white;
+    line-height: 2;
+    font-weight: 100;
+}
+.footerLogo {
+    color: white;
+    filter: brightness(0) invert(100%)
 }
 
 /* @media screen and (min-width: 1200px) {
