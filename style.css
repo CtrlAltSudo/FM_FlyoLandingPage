@@ -8,18 +8,13 @@ ul, a {
     list-style-type: none;
     text-decoration: none;
 }
-.navContainer,
 .logoContainer,
 .navLinkContainer,
-.topContainer,
-.secondContainer,
-.thirdContainer,
 .footerBlock,
 .testContainer,
 .testContainerSmall, 
 .avatarContainer,
-.avatarText,
-.fourthContainer {
+.avatarText {
   display: flex;
 }
 .testContainer, .avatarText {
@@ -53,31 +48,35 @@ ul, a {
     width: auto;
     border-radius: 50%;
 }
-.navContainer {
+.navInContainer {
 justify-content: space-between;
 padding: 0 5rem 0 5rem;
+display: flex;
 }
-.nav1,
-.nav2,
-.nav3 {
-  text-align: center;
-  flex-basis: max-content;
-  justify-content: flex-end;
-}
+
 .textContainer,
 .imgContainer,
 .footerBlock {
 }
-.topContainer,
+.topInContainer,
+.secondInContainer,
+.thirdInContainer,
+.fourthInContainer, 
+.navInContainer {
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 5rem;
+  max-width: 90rem;
+  display: flex;
+}
+/* .topContainer,
 .secondContainer,
 .thirdContainer,
 .fourthContainer, 
 .navContainer {
   justify-content: space-between;
-  max-width: 90rem;
-  margin: 0 auto;
-  padding: 5rem;
-}
+
+} */
 .topContainer {
   margin-bottom: 5em;
 }
@@ -90,8 +89,8 @@ padding: 0 5rem 0 5rem;
   gap: 1rem;
 }
 .testContainer {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-        width: 20rem;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+width: 20rem;
  height: 11rem;
  padding: 1.5rem;
  border-radius: 0.3em;
@@ -195,9 +194,14 @@ h1 {
 }
 .footerItems, a {
     color: white;
-    line-height: 2;
+    line-height: 2.5;
     font-weight: 100;
 }
+
+.footerImgs {
+    margin-right: 1rem;
+}
+
 .footerLogo {
     color: white;
     filter: brightness(0) invert(100%)
