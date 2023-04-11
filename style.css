@@ -1,231 +1,28 @@
-body {
-  margin: 0;
-}
-* {
-  font-family: "Roboto", sans-serif;
-}
-ul,
-a {
-  list-style-type: none;
-  text-decoration: none;
-  padding: 0;
-}
-.logoContainer,
-.navLinkContainer,
-.footerBlock,
-.testContainer,
-.testContainerSmall,
-.avatarContainer,
-.avatarText {
+#navContainer {
   display: flex;
-}
-.navLinkContainer {
-    gap: 3rem;
-}
-.navLink {
-    font-size: 1rem;
-    font-weight: 300;
-}
-.testContainer,
-.avatarText {
-  flex-direction: column;
-}
-.testContainerSmall {
-}
-.avatarContainer {
-}
-.avatarText {
-}
-.hTestC {
-  font-size: 0.8rem;
-  margin: 0 0 0 1rem;
-  font-weight: 400;
-}
-.pTestC {
-  font-size: 0.6rem;
-  font-weight: 100;
-  margin: 0.2rem 0 0 1rem;
-}
-.quotes {
-  width: fit-content;
-}
-.avatarTest {
-  height: 2rem;
-  width: auto;
-  border-radius: 50%;
-}
-.navInContainer {
-  justify-content: space-between;
-  padding: 0 5rem 0 5rem;
-  display: flex;
-}
-
-.topInContainer,
-.secondInContainer,
-.thirdInContainer,
-.fourthInContainer,
-.navInContainer {
-  margin: 0 auto;
-  padding: 5rem;
-  max-width: 90rem;
-  display: flex;
-  gap: 3rem;
-}
-
-.textContainer  { 
-    flex-basis: 50%;
-    padding-top: 3rem;
-
-}
-.imgContainer {
-   flex-basis: 50%;
-}
-
-/* .topContainer,
-.secondContainer,
-.thirdContainer,
-.fourthContainer, 
-.navContainer {
-  justify-content: space-between;
-
-} */
-.topContainer {
-  margin-bottom: 5em;
-  margin-top: -5rem;
-}
-.secondContainer {
-  background: url("images/bg-curve-desktop.svg") no-repeat center;
-  background-size: cover;
-}
-.testContainer {
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  width: 20rem;
-  height: 11rem;
-  padding: 1.5rem;
-  border-radius: 0.3em;
-  background-color: white;
+  justify-content: space-around;
   margin-top: 3rem;
 }
-.testText {
-  font-size: 0.9rem;
-  line-height: 1.8;
+#navContainer .navLinkContainer {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
 }
-.topInputContainer {
-    display: flex;
-    gap: 1rem;
+#topContainer {
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.topInput {
-    flex-basis: 50%;
-}
-.topButton {
-    flex-basis: 30%;
-}
-.thirdContainerButton, .topButton {
-  width: 13rem;
-  height: 3rem;
-  background-color: #3460ef;
-  border: 0;
-  border-radius: 0.2em;
-  text-align: center;
-  color: white;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.footerItem2 {
-  width: 30rem;
-}
-.fourthContainer {
-  background-color: #07053c;
-  justify-content: space-around;
-}
-.link {
-  border-bottom: 1px solid green;
-  background-color: none;
-  color: green;
-  /* Line heigh does nothing... */
-}
-.bottomInput, .topInput {
-  height: 2.6rem;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.topChildContainer1, .topChildContainer2 {
+  max-width: fit-content;
+  border: 1px solid black;
+  flex-basis: 1;
+  flex-grow: 0;
+  max-width: 30rem;
 }
 
-.contentImgs,
-.footerBlock2 {
+img {
   max-width: 100%;
   height: auto;
-  padding-left: 2rem;
-
-
-
 }
-.footerBlock2 {
-  text-align: right;
-  align-self: end;
-}
-.arrow {
-  width: 1.2rem;
-}
-
-
-
-.thirdContainer {
-  background-color: #585989;
-  color: white;
-}
-
-
-.thirdContainerButton {
-  width: 13rem;
-  height: 3rem;
-  background-color: #3460ef;
-  border: 0;
-  border-radius: 0.2em;
-  text-align: center;
-  color: white;
-}
- {
-  width: 30rem;
-  height: 3rem;
-}
-.footerBlock {
-  gap: 0.8rem;
-  flex-direction: column;
-}
-h1 {
-  font-size: 2.8rem;
-  font-weight: 500;
-  line-height: 1.4;
-  margin-bottom: 0;
-}
-h2 {
-    font-size: 2.4rem;
-    font-weight: 500;
-}
-.topText,
-.secondText {
-  font-size: 1.1rem;
-  font-weight: 300;
-}
-.topText {
-    padding-bottom: 0.5rem;
-}
-.footerItems,
-a {
-  color: white;
-  line-height: 2.5;
-  font-weight: 100;
-}
-
-.footerImgs {
-  margin-right: 1rem;
-}
-
-.footerLogo {
-  color: white;
-  filter: brightness(0) invert(100%);
-}
-
-/* @media screen and (min-width: 1200px) {
-    .topContainer, .secondContainer, .thirdContainer, .navContainer  {
-      max-width: 1400px;
-    }
-  } */
